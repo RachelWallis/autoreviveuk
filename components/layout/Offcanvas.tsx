@@ -9,7 +9,7 @@ export default function Offcanvas({ isOffcanvas, handleOffcanvas }: any) {
 						<div className="sidebar-canvas-logo">
 							<Link className="d-flex" href="/">
 								<img className="light-mode" alt="Carento" src="/assets/imgs/template/logo-d.svg" />
-								<img className="dark-mode" alt="Carento" src="/assets/imgs/template/logo-w.svg" />
+								<img className="dark-mode" alt="Carento" src="/assets/imgs/logo/logo-w.svg" />
 							</Link>
 						</div>
 						<div className="sidebar-canvas-lang">

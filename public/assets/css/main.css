@@ -77,12 +77,12 @@ TABLE CONTENT
 	--bs-button-bg-2: #f2f4f6;
 	--bs-button-text: #101010;
 	--bs-button-text-2: #000000;
-	--bs-brand-2: #70f46d;
-	--bs-brand-2-dark: #70f46d;
-	--bs-brand-2-darken: #5edd5b;
-	--bs-brand-2-light: #2d4a2c;
-	--bs-link-hover-color: #235922;
-	--bs-brand-1: #8acfff;
+	--bs-brand-2: #e29201;
+	--bs-brand-2-dark: #ff6803;
+	--bs-brand-2-darken: #c85000;
+	--bs-brand-2-light: #ffa264;
+	--bs-link-hover-color: #ea8a4a;
+	--bs-brand-1: #e29201;
 	--bs-warning: #ffc700;
 	--bs-success: #34d674;
 	--bs-danger: #ff2e00;
@@ -5465,7 +5465,7 @@ label {
 
 .top-bar-2 .text-header .text-unlock {
 	color: var(--bs-neutral-0);
-	background-image: url(../imgs/template/icons/car-front-fill-1.svg);
+	background-image: url(../imgs/icons/car-front-fill.svg);
 }
 
 .top-bar-2 .text-header .link-secondary {
@@ -5520,13 +5520,12 @@ label {
 	top: auto;
 	left: auto;
 	z-index: 123;
-	border-bottom: 1px solid var(--bs-neutral-200);
 }
 
 .header .container-fluid {
 	max-width: 100%;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .header .main-header {
@@ -5545,7 +5544,7 @@ label {
 
 .header .main-header .header-left .header-logo {
 	margin-right: 0px;
-	min-width: 170px;
+	min-width: 250px;
 }
 
 .header .main-header .header-left .header-nav {
@@ -8775,7 +8774,7 @@ a.icon-socials:hover svg path {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background-image: url(../imgs/hero/hero-1/banner.png);
+	background-image: url(../imgs/hero/hero-1/home-banner.jpeg);
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
